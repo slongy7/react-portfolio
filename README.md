@@ -1,70 +1,110 @@
-# Getting Started with Create React App
+# React Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+My personal portfolio built using React and Bootstrap. I'm continually adding projects, modifying content, and updating the look and functionality. 
 
-## Available Scripts
+Please check out my work at www.alexastef.com!
 
-In the project directory, you can run:
+## Table of Contents 
 
-### `yarn start`
+* [Prerequisites](#prerequisites)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* [Installation](#installation)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+* [Usage](#usage)
 
-### `yarn test`
+* [License](#license)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* [About Me](#about)
 
-### `yarn build`
+* [Credits](#credits)
+​
+* [Questions](#questions)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+If you want to pull inspiration from my portfolio design, please email or credit me :) But if you're interested in how I built it, below are the tools used:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* [React.js](https://reactjs.org/)
+* [React-scroll](https://www.npmjs.com/package/react-scroll)
+* [Bootstrap](https://getbootstrap.com/)
+* [Google Domain](https://developers.google.com/identity/sign-in/web/sign-in)
+* [Unsplash](https://unsplash.com/)
+* [Adobe PhotoShop](https://www.adobe.com/products/photoshop.html?promoid=PC1PQQ5T&mv=other)
+* And some good old fashioned CSS!
 
-### `yarn eject`
+## Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+To build a similar, single page portfolio or website for yourself, you'll want first create a new React app:
+```
+npx create-react-app <projectname>
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Then for the single page, smooth scrolling, install react-scroll. To deploy to Github Pages, install gh-pages:
+```
+npm install react-scroll gh-pages
+```
+You can also fork and clone this repo to use as a template and then just run npm install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Usage
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+You'll be able to run the app locally by running npm start:
+```
+npm start
+```
+All your changes should update the local host in real time. If you want to deploy your app, you'll need to make a few changes to the package.json file. Directions below for deploying to Github Pages:
 
-## Learn More
+1. Add a homepage: <name-of-the-page-deploying-to> to your package.json in the root
+  ```
+  "homepage": "https://alexastef.github.io/react-portfolio/"
+  ```
+2. In the "scripts" property of your package.json, add two scripts:
+  ![scripts](https://user-images.githubusercontent.com/62451633/93928045-931f8380-fcce-11ea-96a3-c1e1e8f9fef6.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. Now, after you merge your changes and pull the most up-to-date master, open a new terminal and run npm run deploy:
+```
+npm run deploy
+```
+  
+4. This creates a new branch, gh-pages. Open your deploy settings in Github and change the deploy branch to gh-pages
+  ![deploysettings](https://user-images.githubusercontent.com/62451633/93927549-e04f2580-fccd-11ea-9afc-aa442020ecbe.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+5. Every time you want your deployed site to update with the changes you've made, you need to run npm run deploy
 
-### Code Splitting
+## Pages
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Main
+  * Basic about with main navbar links and link to the full bio
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Projects
+  * Portfolio of selected projects with logo, description, technologies used, and links to the repo and live site
 
-### Making a Progressive Web App
+### About
+  * Bio page with more about me, my background, and favorite technologies
+  
+### Resume
+  * Link to standard resume
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Contact
+  * Email, LinkedIn, and Github
+  * Form coming soon!
 
-### Advanced Configuration
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+This project is licensed under the MIT license.
 
-### Deployment
+## About
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### ![Alexa Stefankiewicz](https://avatars.githubusercontent.com/alexastef?size=200)
+* ### [Alexa Stefankiewicz](https://github.com/alexastef)
+* A lot of creative juices and time went into making this something I can continue building and using. I hope that it is a good representation of who I am as a person and engineer!
 
-### `yarn build` fails to minify
+If you would like to use this template for your own portfolio, please just credit me. Thank you! :)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Credits
+
+Any stock photos used are from Unsplash
+
+## Questions
+
+Questions or feedback-- we welcome them all! Feel free to reach out for any questions about the repo, open an issue or contact me and I'll get back to you soon!
