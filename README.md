@@ -10,7 +10,7 @@ It's very important for participants of this class to have porfolios to show the
 
 ## Bugs
 
-I started to run out of time to do this, so I had to use a template to finish, but I learned a bunch by using the template and modeling mine after it.
+I started to run out of time to do this, so I had to use a template to finish, but I learned a bunch by using the template and modeling mine after it.  I'm going to schedule a tutor session to figure this out, but the only way it can be run is by doing the npm start at the moment.  For some reason it's not letting the link work.  I'll be digging into that.
 
 ## Images
 
