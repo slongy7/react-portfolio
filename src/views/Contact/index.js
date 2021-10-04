@@ -1,5 +1,5 @@
 import React from "react";
-import ContactForm from "../../components/ContactForm";
+// import ContactForm from "../../components/ContactForm";
 import SocialLinks from "../../components/SocialLinks";
 import "./style.css";
 
@@ -9,7 +9,7 @@ function Contact() {
       <div className="row contact-row">
         <div className="formDiv" id="contact">
           <h3 className="viewTitle" id="contactTitle">
-            GET IN TOUCH
+            CONTACT ME
           </h3>
 
           <hr></hr>
