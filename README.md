@@ -12,6 +12,16 @@ It's very important for participants of this class to have porfolios to show the
 
 I started to run out of time to do this, so I had to use a template to finish, but I learned a bunch by using the template and modeling mine after it.
 
+## Images
+
+1st Snap.jpg
+
+2nd Snap
+
+3rd Snap
+
+4th Snap
+
 ## License
 
 The MIT License (MIT)
