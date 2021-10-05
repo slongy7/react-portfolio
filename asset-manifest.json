@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/git@github.com:slongy7/react-portfolio.git/static/css/main.a3592a7f.chunk.css",
+    "main.js": "/git@github.com:slongy7/react-portfolio.git/static/js/main.534b83a5.chunk.js",
+    "main.js.map": "/git@github.com:slongy7/react-portfolio.git/static/js/main.534b83a5.chunk.js.map",
+    "runtime-main.js": "/git@github.com:slongy7/react-portfolio.git/static/js/runtime-main.e564b729.js",
+    "runtime-main.js.map": "/git@github.com:slongy7/react-portfolio.git/static/js/runtime-main.e564b729.js.map",
+    "static/js/2.6cf05abb.chunk.js": "/git@github.com:slongy7/react-portfolio.git/static/js/2.6cf05abb.chunk.js",
+    "static/js/2.6cf05abb.chunk.js.map": "/git@github.com:slongy7/react-portfolio.git/static/js/2.6cf05abb.chunk.js.map",
+    "index.html": "/git@github.com:slongy7/react-portfolio.git/index.html",
+    "precache-manifest.5d972059324e9acc4b78d1e7afe91ac7.js": "/git@github.com:slongy7/react-portfolio.git/precache-manifest.5d972059324e9acc4b78d1e7afe91ac7.js",
+    "service-worker.js": "/git@github.com:slongy7/react-portfolio.git/service-worker.js",
+    "static/css/main.a3592a7f.chunk.css.map": "/git@github.com:slongy7/react-portfolio.git/static/css/main.a3592a7f.chunk.css.map",
+    "static/js/2.6cf05abb.chunk.js.LICENSE.txt": "/git@github.com:slongy7/react-portfolio.git/static/js/2.6cf05abb.chunk.js.LICENSE.txt",
+    "static/media/Headshot.jpeg": "/git@github.com:slongy7/react-portfolio.git/static/media/Headshot.3921d6a9.jpeg",
+    "static/media/resume_justin_long.pdf": "/git@github.com:slongy7/react-portfolio.git/static/media/resume_justin_long.a39808f9.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e564b729.js",
+    "static/js/2.6cf05abb.chunk.js",
+    "static/css/main.a3592a7f.chunk.css",
+    "static/js/main.534b83a5.chunk.js"
+  ]
+}
