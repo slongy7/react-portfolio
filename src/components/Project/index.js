@@ -3,11 +3,11 @@ import projects from "../../projects.json";
 import TechListItem from "../TechListItem";
 
 function Project() {
-    return projects.map(project => {
+    return projects.map((project, index) => {
         
         if (projects.indexOf(project) === 0 || projects.indexOf(project) %2 === 0 ) {
             return (
-                <div className="row projectRow">
+                <div key={index} className="row projectRow">
                     <div className="col-md-4">
                         <img src={project.image} alt={project.title} width="200px"></img>
                     </div>
@@ -27,7 +27,7 @@ function Project() {
             
         } else {
             return (
-                <div className="row projectRow">
+                <div key= {index} className="row projectRow">
                     <div className="col-md-8">
                     <h4 className="projectTitle">{project.title}</h4>
                     <p className="projectAbout">{project.about}</p>
