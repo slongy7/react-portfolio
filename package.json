@@ -1,7 +1,7 @@
 {
   "name": "react-portfolio",
   "version": "0.1.0",
-  "homepage": "git@github.com:slongy7/react-portfolio.git",
+  "homepage": "https://slongy7.github.io/react-portfolio/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -17,7 +17,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && echo https://slongy7.github.io/react-portfolio/ > build/CNAME",
+    "build": "react-scripts build https://slongy7.github.io/react-portfolio/ > build/CNAME",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
